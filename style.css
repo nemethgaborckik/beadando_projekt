@@ -40,3 +40,8 @@ p {
     text-align: justify;
 }
 
+.illkep {
+    display: inline-block;
+    width: 225px;
+}
+

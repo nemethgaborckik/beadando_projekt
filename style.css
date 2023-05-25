@@ -40,8 +40,23 @@ p {
     text-align: justify;
 }
 
-.illkep {
+.ala {
     display: inline-block;
     width: 225px;
 }
+
+@media screen and (max-width: 1000px) {
+    .ala {
+        width: 200px;
+    }
+    
+}
+
+@media screen and (max-width: 300px) {
+    #nemkell {
+        display: none;
+    }
+}
+
+
 

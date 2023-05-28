@@ -1,14 +1,19 @@
-body {
+#first_body {
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
     
 }
 
-#main_webpage_header {
+#page_header {
     background-color: black;
     color: white;
     text-align: center;
+    display: block;
 
+}
+
+#page_header img {
+    width: 130px;
 }
 
 img {
@@ -36,13 +41,34 @@ img {
     }
 }
 
-p {
+.first_page_p p{
     text-align: justify;
 }
 
 .ala {
     display: inline-block;
     width: 225px;
+}
+
+#back_arrow {
+    width: 50px;
+    left: 5px;
+    top: 70;
+    cursor: pointer;
+}
+
+#jordan_article {
+    margin: 50px;
+
+}
+
+#jordan_article p {
+    text-align: justify;
+}
+
+.jordan_images {
+    /* display: block; */
+    width: 250px;
 }
 
 @media screen and (max-width: 1000px) {
@@ -57,6 +83,8 @@ p {
         display: none;
     }
 }
+
+
 
 
 

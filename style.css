@@ -58,7 +58,8 @@ img {
 }
 
 #jordan_article {
-    margin: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
 
 }
 
@@ -68,7 +69,7 @@ img {
 
 .jordan_images {
     /* display: block; */
-    width: 250px;
+    width: 200px;
 }
 
 @media screen and (max-width: 1000px) {
@@ -84,7 +85,11 @@ img {
     }
 }
 
-
+@media screen and (max-width: 500px ) {
+    .display_none {
+        display: none;
+    }
+}
 
 
 

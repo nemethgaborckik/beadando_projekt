@@ -53,7 +53,7 @@ img {
 #back_arrow {
     width: 50px;
     left: 5px;
-    top: 70;
+    top: 70px;
     cursor: pointer;
 }
 
@@ -70,7 +70,7 @@ img {
 .jordan_images {
     /* display: block; */
     width: 200px;
-}
+    }
 
 @media screen and (max-width: 1000px) {
     .ala {

@@ -82,7 +82,8 @@ img {
 .photo_album_images {
     display: block;
     margin: auto;
-    width: 50%;
+    width: 500px;
+    height: 500px;
 }
 
 

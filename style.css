@@ -1,7 +1,13 @@
+
 #first_body {
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
     
+}
+
+#other_body {
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #page_header {
@@ -22,24 +28,12 @@ img {
     width: 200px;
 }
 
-
 .nav-link  {
     color: black;
 }
 
-
 #hamburger {
     display: none;
-}
-
-
-@media screen and (max-width:350px){
-    #hamburger {
-        display: block;
-    }
-    #basic-nav {
-        display: none;
-    }
 }
 
 .first_page_p p{
@@ -86,6 +80,15 @@ img {
     height: 500px;
 }
 
+#color_red {
+    color: red;
+}
+.h2_center {
+    text-align: center;
+    margin: auto;
+    font-style: italic;
+    margin: 10px;
+}
 
 @media screen and (max-width: 1000px) {
     .ala {
@@ -105,6 +108,8 @@ img {
         display: none;
     }
 }
+
+
 
 
 

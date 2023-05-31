@@ -73,6 +73,19 @@ img {
     width: 200px;
     }
 
+.Photo_album_h1 {
+    text-align: center;
+    width: 200px;
+    margin: auto;
+}
+
+.photo_album_images {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+
 @media screen and (max-width: 1000px) {
     .ala {
         width: 200px;
